@@ -1,0 +1,20 @@
+:root {
+    --primary-color: hsl(275, 100%, 97%);
+    --secondary-color: hsl(294, 15%, 57%);
+    --terciary-color: hsl(292, 42%, 14%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}

@@ -1,0 +1,75 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    background: url(../../assets/images/background-pattern-desktop.svg) no-repeat;
+    background-size: contain;
+    background-color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    max-width: 650px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.faq h1 {
+    font-size: 54px;
+}
+
+.faq h1::before {
+    content: url(../../assets/images/icon-star.svg);
+    padding-right: 20px;
+}
+
+.faq .question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq .question-container .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .question-container .question span {
+    font-weight: 700;
+    color: var(--terciary-color);
+}
+
+.faq .question-container .question button {
+    cursor: pointer;
+    height: 31px;
+
+}
+
+.faq .question-container .answer {
+    color: var(--secondary-color);
+    max-width: 490px;
+}
+
+.esconder-resposta {
+    display: none;
+}
+
+hr {
+    height: 2px;
+    color: var(--secondary-color);
+    background: var(--secondary-color);
+    border: 0;
+    opacity: 0.1;
+}
